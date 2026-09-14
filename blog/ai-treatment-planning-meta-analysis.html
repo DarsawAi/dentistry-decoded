@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Can AI Reliably Plan Dental Treatment & Spot Cavities? A 60k-Scan Meta-Analysis | Dentistry Decoded</title>
+  <meta name="description" content="A landmark 2026 meta-analysis of 60,857 dental radiographs shows AI hits 85% sensitivity and 94% specificity. Discover why researchers conclude AI is a diagnostic co-pilot, not a replacement.">
+  <link rel="canonical" href="https://dentistrydecoded.org/blog/ai-treatment-planning-meta-analysis.html">
+
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dentistrydecoded.org/blog/ai-treatment-planning-meta-analysis.html">
+  <meta property="og:title" content="Can AI Reliably Plan Dental Treatment & Spot Cavities? A 60k-Scan Meta-Analysis">
+  <meta property="og:description" content="2026 meta-analysis of 60,857 radiographs reveals 85% sensitivity and 94% specificity for dental AI diagnostics.">
+  <meta property="og:image" content="https://dentistrydecoded.org/assets/ai_dentistry_post_1785554621614.jpg">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@DentistDecoded">
+  <meta name="twitter:title" content="Can AI Reliably Plan Dental Treatment & Spot Cavities?">
+  <meta name="twitter:description" content="Analyzing 27 clinical trials across 60,857 radiographs: 85% sensitivity & 94% specificity.">
+  <meta name="twitter:image" content="https://dentistrydecoded.org/assets/ai_dentistry_post_1785554621614.jpg">
+
+  <!-- Schema.org JSON-LD Structured Data for Medical & Scholarly SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Artificial Intelligence in Dental Treatment Planning and Diagnostic Decision-Making: A Systematic Review and Meta-Analysis",
+    "description": "Comprehensive analysis of 60,857 clinical dental radiographs evaluating deep learning models for caries detection and pathology screening.",
+    "image": "https://dentistrydecoded.org/assets/ai_dentistry_post_1785554621614.jpg",
+    "datePublished": "2026-09-14",
+    "author": {
+      "@type": "Organization",
+      "name": "Dentistry Decoded",
+      "url": "https://dentistrydecoded.org"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Dentistry Decoded",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dentistrydecoded.org/assets/dentistry_decoded_violet_logo_1789209001081.jpg"
+      }
+    },
+    "citation": "https://doi.org/10.1002/cre2.70343",
+    "about": [
+      { "@type": "MedicalSpecialty", "name": "Dentistry" },
+      { "@type": "MedicalSpecialty", "name": "Dental Radiology" }
+    ]
+  }
+  </script>
+
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", monospace; }
+    .card-dark {
+      background: linear-gradient(180deg, rgba(30, 27, 75, 0.45) 0%, rgba(15, 23, 42, 0.95) 100%);
+    }
+    .btn-amber {
+      background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+      color: #020617;
+      box-shadow: 0 4px 16px -1px rgba(245, 158, 11, 0.45);
+    }
+    .btn-amber:hover {
+      background: linear-gradient(135deg, #fbbf24 0%, #f97316 100%);
+      box-shadow: 0 6px 22px -1px rgba(245, 158, 11, 0.6);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/90 border-b border-slate-800/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3.5 group">
+        <img 
+          src="/assets/dentistry_decoded_violet_logo_1789209001081.jpg" 
+          alt="Dentistry Decoded Logo" 
+          class="w-12 h-12 rounded-xl object-cover border-2 border-purple-500/50 shadow-lg group-hover:scale-105 transition"
+        />
+        <div>
+          <div class="font-extrabold tracking-tight text-xl text-white flex items-center gap-1.5">
+            <span>Dentistry</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-violet-300 to-amber-300">Decoded</span>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30 font-mono">.ORG</span>
+          </div>
+          <p class="text-[11px] text-slate-400 font-medium">Demystifying Modern Dental Science</p>
+        </div>
+      </a>
+
+      <div class="flex items-center gap-3">
+        <a href="/" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition text-xs font-semibold">
+          &larr; Back to Home
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ARTICLE MAIN CONTAINER -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+    
+    <!-- BREADCRUMBS & META -->
+    <nav class="flex items-center gap-2 text-xs font-mono text-slate-400 mb-6">
+      <a href="/" class="hover:text-purple-300 transition">Home</a>
+      <span>/</span>
+      <span class="text-purple-400">AI in Dentistry Series</span>
+      <span>/</span>
+      <span class="text-slate-500 truncate">Week 1 Study</span>
+    </nav>
+
+    <!-- TITLE & HEADER -->
+    <header class="space-y-4 mb-8">
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="px-3 py-1 rounded-lg bg-purple-600 text-white font-bold text-xs">Week 1 of 8</span>
+        <span class="px-3 py-1 rounded-lg bg-slate-900 border border-purple-500/40 text-purple-300 font-mono text-xs">Clinical Diagnostics</span>
+        <span class="text-xs text-slate-500 font-mono">Published Sept 14, 2026</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+        Can AI Reliably Plan Dental Treatment and Spot Cavities? A 60k-Scan Meta-Analysis
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-300 leading-relaxed">
+        Deep learning algorithms are achieving 94% specificity on dental X-rays. Here is what 27 peer-reviewed clinical trials reveal about where artificial intelligence excels—and why the dentist’s clinical judgment remains irreplaceable.
+      </p>
+
+      <div class="flex items-center gap-3 pt-2 text-xs text-slate-400 font-mono">
+        <span>By <strong>Dentistry Decoded Editorial Team</strong></span>
+        <span>&bull;</span>
+        <span>Peer-Reviewed Literature Synthesis</span>
+        <span>&bull;</span>
+        <span class="text-amber-400 font-semibold">8 min read</span>
+      </div>
+    </header>
+
+    <!-- MANDATORY SHORT MEDICAL & DENTAL DISCLAIMER -->
+    <div class="bg-amber-500/10 border-l-4 border-amber-500 rounded-r-2xl p-4 sm:p-5 mb-8">
+      <div class="flex items-start gap-3">
+        <span class="text-xl">⚖️</span>
+        <div class="text-xs sm:text-sm text-amber-200/90 leading-relaxed">
+          <strong class="text-amber-300 font-bold block mb-0.5">Medical & Dental Disclaimer</strong>
+          This article is strictly for educational and informational purposes and does not constitute clinical dental or medical advice, diagnosis, or treatment. Always consult a licensed dentist, physician, or qualified healthcare professional regarding any personal health or dental questions.
+        </div>
+      </div>
+    </div>
+
+    <!-- WORDPRESS-STYLE FEATURED IMAGE HERO -->
+    <figure class="rounded-3xl overflow-hidden border-2 border-purple-500/40 shadow-2xl mb-10 group relative">
+      <img 
+        src="/assets/ai_dentistry_post_1785554621614.jpg" 
+        alt="Artificial Intelligence Dental Diagnostic Radiograph Analysis" 
+        class="w-full h-auto object-cover"
+      />
+      <figcaption class="p-3 bg-slate-950/90 border-t border-slate-800 text-xs text-slate-400 font-mono flex items-center justify-between">
+        <span>Featured Asset &bull; AI Diagnostic Computer Vision Overlay</span>
+        <span class="text-amber-400">Dentistry Decoded Launch Series</span>
+      </figcaption>
+    </figure>
+
+    <!-- KEY CLINICAL METRICS CARD -->
+    <section class="card-dark rounded-3xl p-6 sm:p-8 border border-purple-500/40 shadow-xl mb-10 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+        <div>
+          <span class="text-xs font-mono font-bold text-amber-400 uppercase tracking-wider">Primary Evidence Source</span>
+          <h3 class="text-lg font-bold text-white mt-0.5">Clinical and Experimental Dental Research (2026)</h3>
+        </div>
+        <a 
+          href="https://doi.org/10.1002/cre2.70343" 
+          target="_blank" 
+          class="btn-amber px-4 py-2 rounded-xl font-bold text-xs inline-flex items-center gap-1.5 self-start sm:self-auto"
+        >
+          <span>View Primary Paper (DOI)</span> &rarr;
+        </a>
+      </div>
+
+      <!-- METRICS GRID -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+        <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+          <div class="text-xs text-slate-400 font-mono">Sample Size</div>
+          <div class="text-xl sm:text-2xl font-extrabold text-white font-mono mt-1">60,857</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">Radiographs</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+          <div class="text-xs text-slate-400 font-mono">Pooled Sensitivity</div>
+          <div class="text-xl sm:text-2xl font-extrabold text-emerald-400 font-mono mt-1">85%</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">Pathology Spotting</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+          <div class="text-xs text-slate-400 font-mono">Pooled Specificity</div>
+          <div class="text-xl sm:text-2xl font-extrabold text-emerald-400 font-mono mt-1">94%</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">Near-Zero False Positives</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+          <div class="text-xs text-slate-400 font-mono">Accuracy (F1)</div>
+          <div class="text-xl sm:text-2xl font-extrabold text-amber-400 font-mono mt-1">90%</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">Harmonic Mean</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLE BODY CONTENT -->
+    <article class="prose prose-invert max-w-none space-y-8 text-slate-300 text-base leading-relaxed">
+      
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-white tracking-tight flex items-center gap-2">
+          <span>1. The Headline Question: Will AI Replace Dentists?</span>
+        </h2>
+        <p>
+          With large language models writing medical summaries and computer vision detecting skin lesions, dental patients and clinicians alike have asked: <em>Is artificial intelligence poised to replace the dentist?</em>
+        </p>
+        <p>
+          A landmark 2026 systematic review and meta-analysis published in <em>Clinical and Experimental Dental Research</em> investigated this exact question. By compiling data from <strong>27 peer-reviewed studies encompassing 60,857 clinical dental radiographs</strong> (bitewings, periapicals, and panoramic orthopantomograms), researchers calculated how accurately modern deep neural networks detect dental caries, periapical lesions, and periodontal bone loss.
+        </p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-white tracking-tight flex items-center gap-2">
+          <span>2. What the Numbers Actually Tell Us</span>
+        </h2>
+        <p>
+          The findings were mathematically impressive:
+        </p>
+        <ul class="space-y-2 list-disc list-inside bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
+          <li><strong>Pooled Sensitivity of 85%:</strong> The AI successfully detected 85 out of every 100 true dental pathologies.</li>
+          <li><strong>Pooled Specificity of 94%:</strong> The software rarely gave false alarms, accurately identifying healthy enamel and bone 94% of the time.</li>
+          <li><strong>Balanced Accuracy Score of 90%:</strong> When combining sensitivity and specificity across diverse imaging sensors, the algorithms achieved an overall 90% F1-score.</li>
+        </ul>
+        <p>
+          These numbers prove that computer vision has matured into an extraordinarily capable diagnostic assistant.
+        </p>
+      </section>
+
+      <!-- AUDIENCE PERSPECTIVES -->
+      <section class="space-y-6 pt-4">
+        <h2 class="text-2xl font-bold text-white tracking-tight">
+          3. What This Means For You
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          
+          <!-- PATIENTS -->
+          <div class="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/30 space-y-2.5">
+            <div class="flex items-center gap-2 text-amber-400 font-bold text-sm">
+              <span>🪥</span> For Dental Patients
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              You get the peace of mind of a "second pair of eyes." AI helps ensure tiny interproximal (between-the-teeth) cavities aren't overlooked on busy days, enabling early remineralization before drill-and-fill is required.
+            </p>
+          </div>
+
+          <!-- STUDENTS -->
+          <div class="p-5 rounded-2xl bg-purple-500/10 border border-purple-500/30 space-y-2.5">
+            <div class="flex items-center gap-2 text-purple-300 font-bold text-sm">
+              <span>🎓</span> For Dental Students
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              AI is a premier calibration tool for learning radiographic interpretation. However, students must resist "automation bias"—blindly trusting software without conducting thorough clinical and periodontal probing.
+            </p>
+          </div>
+
+          <!-- CLINICIANS -->
+          <div class="p-5 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 space-y-2.5">
+            <div class="flex items-center gap-2 text-cyan-300 font-bold text-sm">
+              <span>🩺</span> For Practicing Dentists
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              AI dramatically improves chairside case presentation. Patients trust visual bounding boxes on high-resolution screens. But legally and ethically, you remain solely accountable for every treatment decision.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="text-2xl font-bold text-white tracking-tight flex items-center gap-2">
+          <span>4. The Caveats: Why Dentistry Remains "AI-Proof"</span>
+        </h2>
+        <p>
+          Despite high lab accuracy, the authors identified two massive hurdles that keep dentistry fundamentally in human hands:
+        </p>
+        <ol class="space-y-3 list-decimal list-inside bg-slate-900/60 p-6 rounded-2xl border border-slate-800 text-sm">
+          <li>
+            <strong>Extreme Study Heterogeneity (&gt;95%):</strong> Most published AI models were trained on clean, isolated datasets from university labs. They often degrade when faced with real-world artifacts like patient movement, metallic restorations, or unusual root anatomy.
+          </li>
+          <li>
+            <strong>Lack of Prospective Clinical Trials:</strong> Software can circle a shadow on a radiograph, but it cannot assess whether a tooth is symptomatic, check periodontal pocket depths, or evaluate a patient's medical history, pain tolerance, or financial reality.
+          </li>
+        </ol>
+        <p>
+          <strong>The Verdict:</strong> AI is not replacing the dentist. It is elevating the dentist into an augmented clinician with superhuman visual support.
+        </p>
+      </section>
+
+      <!-- CITATION BOX -->
+      <section class="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-2 font-mono text-xs">
+        <div class="text-purple-400 font-bold uppercase">Official Research Citation</div>
+        <p class="text-slate-300">
+          <em>Clinical and Experimental Dental Research</em>, 2026. "Artificial Intelligence in Dental Treatment Planning and Diagnostic Decision-Making: A Systematic Review and Meta-Analysis."
+        </p>
+        <div class="pt-2">
+          <a href="https://doi.org/10.1002/cre2.70343" target="_blank" class="text-amber-400 hover:text-amber-300 underline font-semibold">
+            https://doi.org/10.1002/cre2.70343
+          </a>
+        </div>
+      </section>
+
+    </article>
+
+    <!-- SHARE & SOCIAL CTA -->
+    <div class="mt-12 p-8 rounded-3xl card-dark border border-purple-500/40 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div>
+        <h3 class="text-lg font-bold text-white">Share This Evidence Breakdown</h3>
+        <p class="text-xs text-slate-400 mt-1">Help spread evidence-based dental science to patients, students, and colleagues.</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://dentistrydecoded.org/blog/ai-treatment-planning-meta-analysis.html" target="_blank" class="px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-white hover:border-purple-500 text-xs font-semibold transition">
+          Share on Facebook
+        </a>
+        <a href="https://twitter.com/intent/tweet?url=https://dentistrydecoded.org/blog/ai-treatment-planning-meta-analysis.html&text=Can%20AI%20replace%20dentists?%20New%2060k-scan%20meta-analysis%20decoded%20by%20@DentistDecoded" target="_blank" class="btn-amber px-4 py-2.5 rounded-xl font-bold text-xs transition">
+          Post to X
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-12 px-4 sm:px-6 text-xs text-slate-500 mt-16">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <img 
+          src="/assets/dentistry_decoded_violet_logo_1789209001081.jpg" 
+          alt="Dentistry Decoded Logo" 
+          class="w-8 h-8 rounded-lg object-cover border border-purple-500/50"
+        />
+        <span class="font-bold text-slate-300">Dentistry Decoded &bull; dentistrydecoded.org</span>
+      </div>
+      <div class="text-center sm:text-right">
+        <p>Evidence-based oral healthcare insights. Content is strictly educational.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

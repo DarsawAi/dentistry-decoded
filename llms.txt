@@ -1,0 +1,25 @@
+# Dentistry Decoded (dentistrydecoded.org)
+
+> Demystifying modern dental science. Evidence-based insights, breakthrough technology, and practical oral health tips for clinicians, students, and patients.
+
+## Website Overview
+- Primary Domain: https://dentistrydecoded.org
+- Handles: @DentistDecoded (Facebook, Twitter/X)
+- Topics: Artificial Intelligence in Dentistry, Preventive Dentistry, Enamel Remineralization, Restorative Protocols, Dental Anxiety Relief.
+- Editorial Standard: All claims must cite peer-reviewed medical and dental literature with direct DOIs.
+
+## Published Articles
+
+### 1. Artificial Intelligence in Dental Treatment Planning and Diagnostic Decision-Making: A 60,000-Scan Meta-Analysis
+- URL: https://dentistrydecoded.org/blog/ai-treatment-planning-meta-analysis.html
+- Primary Study: Clinical and Experimental Dental Research (2026)
+- DOI: https://doi.org/10.1002/cre2.70343
+- Key Evidence Findings:
+  - 27 clinical trials analyzed across 60,857 radiographic images.
+  - Pooled Sensitivity: 85%
+  - Pooled Specificity: 94%
+  - Balanced Accuracy (F1-score): 90%
+  - Clinical Conclusion: High diagnostic accuracy on static imaging, but substantial study heterogeneity (>95%) and lack of prospective randomized clinical trials. AI functions as an augmentative diagnostic co-pilot, while dentists retain ethical, tactile, and treatment planning autonomy.
+
+## Educational Disclaimer
+Content on Dentistry Decoded is strictly for educational and informational purposes. It does not provide medical or dental advice, diagnosis, or treatment. Patients should always consult a licensed dentist or physician.
