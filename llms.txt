@@ -5,7 +5,7 @@
 ## Website Overview
 - Primary Domain: https://dentistrydecoded.org
 - Handles: @DentistDecoded (Facebook, Twitter/X)
-- Topics: Artificial Intelligence in Dentistry, Pediatric Dentistry, Preventive Dentistry, Enamel Remineralization, Restorative Protocols.
+- Topics: Artificial Intelligence in Dentistry, Pediatric Dentistry, Preventive Care, Restorative Protocols.
 - Editorial Standard: All claims must cite peer-reviewed medical and dental literature with direct DOIs.
 
 ## Published Articles
@@ -20,7 +20,7 @@
 - URL: https://dentistrydecoded.org/blog/pediatric-dentistry-cavity-detection-ai.html
 - Primary Study: Children (MDPI, 2026)
 - DOI: https://doi.org/10.3390/children13010152
-- Key Evidence Findings: Pooled Sensitivity of 91%, Pooled Specificity of 97%. Shifts pediatric care to proactive remineralization before physical cavitation occurs.
+- Key Evidence Findings: Pooled Sensitivity of 91%, Pooled Specificity of 97%. Enhances identification of early enamel demineralization on radiographs and clinical photographs to support caries risk prediction.
 
 ## Educational Disclaimer
 Content on Dentistry Decoded is strictly for educational and informational purposes. It does not provide medical or dental advice, diagnosis, or treatment. Patients should always consult a licensed dentist or physician.
