@@ -26,7 +26,7 @@
 - URL: https://dentistrydecoded.org/blog/ai-oral-cancer-detection.html
 - Primary Study: Brazilian Dental Science (2026)
 - DOI: https://doi.org/10.4322/bds.2026.e5017
-- Key Evidence Findings: Diagnostic accuracy >85% across mobile computer vision models. High potential for remote community triage; biopsy remains essential.
+- Key Evidence Findings: Diagnostic accuracy over 80% across mobile computer vision models. High potential for remote community triage; biopsy remains essential.
 
 ## Educational Disclaimer
 Content on Dentistry Decoded is strictly for educational and informational purposes. It does not provide medical or dental advice, diagnosis, or treatment. Patients should always consult a licensed dentist or physician.
