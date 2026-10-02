@@ -5,3 +5,7 @@ node_modules/
 .env.*
 dist/
 .cache/
+
+*.mp4
+blog 2/
+
