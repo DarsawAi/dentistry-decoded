@@ -67,10 +67,53 @@
     </div>
 
     <!-- ARTICLES GRID -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       
-      <!-- ARTICLE 2 (NEWLY PUBLISHED) -->
+      <!-- ARTICLE 3 (NEWEST RELEASE - WEEK 3) -->
       <article class="group rounded-3xl card-dark border border-purple-500/50 hover:border-amber-500/60 transition-all duration-300 overflow-hidden flex flex-col shadow-xl">
+        <a href="/blog/ai-oral-cancer-detection.html" class="block relative aspect-[16/10] bg-slate-900 overflow-hidden">
+          <img 
+            src="/assets/ai_oral_cancer_1786432418907.jpg" 
+            alt="AI Oral Cancer Detection Hologram" 
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+          <div class="absolute top-4 left-4 z-10 flex gap-2">
+            <span class="px-2.5 py-1 rounded-lg bg-purple-600 text-white text-[11px] font-bold shadow-md">Week 3</span>
+            <span class="px-2.5 py-1 rounded-lg bg-slate-900/90 text-rose-300 border border-rose-700/60 text-[11px] font-semibold">Oral Cancer</span>
+          </div>
+          <span class="absolute bottom-3 right-3 z-10 text-[10px] font-mono px-2 py-1 rounded-md bg-black/75 text-amber-300 backdrop-blur-md">
+            New Release &bull; &gt;85% Accuracy
+          </span>
+        </a>
+
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-[11px] font-mono text-purple-400 mb-2 flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+              <span>Brazilian Dental Science (2026)</span>
+            </div>
+            <h2 class="text-lg font-bold text-white group-hover:text-amber-300 transition leading-snug mb-3">
+              <a href="/blog/ai-oral-cancer-detection.html">
+                Can Smartphone AI Detect Oral Cancer Earlier? A 2026 Review
+              </a>
+            </h2>
+            <p class="text-xs text-slate-400 leading-relaxed line-clamp-3 mb-5">
+              Evaluating mobile computer vision models hitting &gt;85% diagnostic accuracy for early oral cancer and premalignant lesion screening.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-slate-800/70 flex items-center justify-between text-xs">
+            <span class="text-slate-500 font-mono text-[11px]">DOI: 10.4322/bds.2026.e5017</span>
+            <a href="/blog/ai-oral-cancer-detection.html" class="btn-amber px-3.5 py-2 rounded-xl font-bold text-xs transition inline-flex items-center gap-1">
+              <span>Read Study</span> &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ARTICLE 2 (PUBLISHED) -->
+      <article class="group rounded-3xl card-dark border border-slate-800 hover:border-purple-500/60 transition-all duration-300 overflow-hidden flex flex-col shadow-xl">
         <a href="/blog/pediatric-dentistry-cavity-detection-ai.html" class="block relative aspect-[16/10] bg-slate-900 overflow-hidden">
           <img 
             src="/assets/ai_pediatric_dentistry_1786431644026.jpg" 
@@ -82,9 +125,6 @@
             <span class="px-2.5 py-1 rounded-lg bg-purple-600 text-white text-[11px] font-bold shadow-md">Week 2</span>
             <span class="px-2.5 py-1 rounded-lg bg-slate-900/90 text-pink-300 border border-pink-700/60 text-[11px] font-semibold">Pediatric Care</span>
           </div>
-          <span class="absolute bottom-3 right-3 z-10 text-[10px] font-mono px-2 py-1 rounded-md bg-black/75 text-amber-300 backdrop-blur-md">
-            New Release &bull; 97% Specificity
-          </span>
         </a>
 
         <div class="p-6 flex-1 flex flex-col justify-between">
@@ -93,26 +133,26 @@
               <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
               <span>Children (MDPI, 2026)</span>
             </div>
-            <h2 class="text-xl font-bold text-white group-hover:text-amber-300 transition leading-snug mb-3">
+            <h2 class="text-lg font-bold text-white group-hover:text-amber-300 transition leading-snug mb-3">
               <a href="/blog/pediatric-dentistry-cavity-detection-ai.html">
-                Deep Learning in Pediatric Dentistry: 97% Specificity for Childhood Cavities
+                Deep Learning in Pediatric Dentistry: 97% Specificity
               </a>
             </h2>
             <p class="text-xs text-slate-400 leading-relaxed line-clamp-3 mb-5">
-              Enhancing pediatric checkups. How deep learning models detect early enamel demineralization on radiographs and clinical images to support caries risk prediction.
+              Enhancing pediatric checkups. How deep learning models detect early enamel demineralization on radiographs and clinical images.
             </p>
           </div>
 
           <div class="pt-4 border-t border-slate-800/70 flex items-center justify-between text-xs">
             <span class="text-slate-500 font-mono text-[11px]">DOI: 10.3390/children13010152</span>
-            <a href="/blog/pediatric-dentistry-cavity-detection-ai.html" class="btn-amber px-4 py-2 rounded-xl font-bold text-xs transition inline-flex items-center gap-1.5">
+            <a href="/blog/pediatric-dentistry-cavity-detection-ai.html" class="btn-amber px-3.5 py-2 rounded-xl font-bold text-xs transition inline-flex items-center gap-1">
               <span>Read Study</span> &rarr;
             </a>
           </div>
         </div>
       </article>
 
-      <!-- ARTICLE 1 (ACTIVE / PUBLISHED) -->
+      <!-- ARTICLE 1 (PUBLISHED) -->
       <article class="group rounded-3xl card-dark border border-slate-800 hover:border-purple-500/60 transition-all duration-300 overflow-hidden flex flex-col shadow-xl">
         <a href="/blog/ai-treatment-planning-meta-analysis.html" class="block relative aspect-[16/10] bg-slate-900 overflow-hidden">
           <img 
@@ -125,30 +165,27 @@
             <span class="px-2.5 py-1 rounded-lg bg-purple-600 text-white text-[11px] font-bold shadow-md">Week 1</span>
             <span class="px-2.5 py-1 rounded-lg bg-slate-900/90 text-cyan-300 border border-cyan-700/60 text-[11px] font-semibold">Diagnostics</span>
           </div>
-          <span class="absolute bottom-3 right-3 z-10 text-[10px] font-mono px-2 py-1 rounded-md bg-black/75 text-amber-300 backdrop-blur-md">
-            Published &bull; 60k Scans
-          </span>
         </a>
 
         <div class="p-6 flex-1 flex flex-col justify-between">
           <div>
             <div class="text-[11px] font-mono text-purple-400 mb-2 flex items-center gap-2">
               <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
-              <span>Clinical and Experimental Dental Research (2026)</span>
+              <span>Clinical & Exp. Dental Research (2026)</span>
             </div>
-            <h2 class="text-xl font-bold text-white group-hover:text-amber-300 transition leading-snug mb-3">
+            <h2 class="text-lg font-bold text-white group-hover:text-amber-300 transition leading-snug mb-3">
               <a href="/blog/ai-treatment-planning-meta-analysis.html">
-                Can AI Reliably Plan Treatment and Spot Cavities? A 60k-Scan Meta-Analysis
+                Can AI Reliably Plan Treatment? 60k-Scan Analysis
               </a>
             </h2>
             <p class="text-xs text-slate-400 leading-relaxed line-clamp-3 mb-5">
-              Analyzing 27 clinical trials across 60,857 radiographs. AI reaches 85% sensitivity and 94% specificity, proving it is an indispensable co-pilot rather than a replacement.
+              Analyzing 27 clinical trials across 60,857 radiographs. AI reaches 85% sensitivity and 94% specificity.
             </p>
           </div>
 
           <div class="pt-4 border-t border-slate-800/70 flex items-center justify-between text-xs">
             <span class="text-slate-500 font-mono text-[11px]">DOI: 10.1002/cre2.70343</span>
-            <a href="/blog/ai-treatment-planning-meta-analysis.html" class="btn-amber px-4 py-2 rounded-xl font-bold text-xs transition inline-flex items-center gap-1.5">
+            <a href="/blog/ai-treatment-planning-meta-analysis.html" class="btn-amber px-3.5 py-2 rounded-xl font-bold text-xs transition inline-flex items-center gap-1">
               <span>Read Study</span> &rarr;
             </a>
           </div>

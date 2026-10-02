@@ -5,7 +5,7 @@
 ## Website Overview
 - Primary Domain: https://dentistrydecoded.org
 - Handles: @DentistDecoded (Facebook, Twitter/X)
-- Topics: Artificial Intelligence in Dentistry, Pediatric Dentistry, Preventive Care, Restorative Protocols.
+- Topics: Artificial Intelligence in Dentistry, Early Oral Cancer Screening, Pediatric Dentistry, Preventive Care, Restorative Protocols.
 - Editorial Standard: All claims must cite peer-reviewed medical and dental literature with direct DOIs.
 
 ## Published Articles
@@ -21,6 +21,12 @@
 - Primary Study: Children (MDPI, 2026)
 - DOI: https://doi.org/10.3390/children13010152
 - Key Evidence Findings: Pooled Sensitivity of 91%, Pooled Specificity of 97%. Enhances identification of early enamel demineralization on radiographs and clinical photographs to support caries risk prediction.
+
+### 3. AI in Early Oral Cancer Detection: A Systematic Review of Technologies and Clinical Impact
+- URL: https://dentistrydecoded.org/blog/ai-oral-cancer-detection.html
+- Primary Study: Brazilian Dental Science (2026)
+- DOI: https://doi.org/10.4322/bds.2026.e5017
+- Key Evidence Findings: Diagnostic accuracy >85% across mobile computer vision models. High potential for remote community triage; biopsy remains essential.
 
 ## Educational Disclaimer
 Content on Dentistry Decoded is strictly for educational and informational purposes. It does not provide medical or dental advice, diagnosis, or treatment. Patients should always consult a licensed dentist or physician.
