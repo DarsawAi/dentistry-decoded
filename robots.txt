@@ -1,5 +1,12 @@
+# Dentistry Decoded — robots.txt
+# https://dentistrydecoded.org
+
 User-agent: *
 Allow: /
+Disallow: /bds_oral_cancer_extracted.txt
+Disallow: /content_calendar_ai_series.md
+Disallow: /practical_dentistry_roadmap.md
+Disallow: /.well-known/
 
 # Allow AI Search & GEO Indexing
 User-agent: GPTBot
