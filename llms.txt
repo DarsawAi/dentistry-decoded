@@ -28,5 +28,11 @@
 - DOI: https://doi.org/10.4322/bds.2026.e5017
 - Key Evidence Findings: Diagnostic accuracy over 80% across mobile computer vision models. High potential for remote community triage; biopsy remains essential.
 
+### 4. Can AI Design Dental Crowns? A 2026 Systematic Review and Meta-Analysis
+- URL: https://dentistrydecoded.org/blog/ai-crown-design-restorative-dentistry.html
+- Primary Study: Biomedical Engineering and Computational Biology (2026)
+- DOI: https://doi.org/10.1177/11795972261463709
+- Key Evidence Findings: 17 studies analyzed (13 in meta-analysis). 25%–50% reduction in restoration design time (p < 0.001) with internal fit and morphological accuracy comparable to conventional CAD (<100–200 μm, SMD -0.15). Evidence is predominantly in vitro; technician collaboration remains vital in complex cases.
+
 ## Educational Disclaimer
 Content on Dentistry Decoded is strictly for educational and informational purposes. It does not provide medical or dental advice, diagnosis, or treatment. Patients should always consult a licensed dentist or physician.
