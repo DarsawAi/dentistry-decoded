@@ -1,9 +1,4 @@
-# Block access to internal/sensitive files
-/bds_oral_cancer_extracted.txt    /404    404
+# Block access to internal files
 /content_calendar_ai_series.md    /404    404
 /practical_dentistry_roadmap.md   /404    404
-/bds_oral_cancer_5017.pdf         /404    404
 /llms.txt                         /llms.txt  200
-
-# Redirect www to apex
-https://www.dentistrydecoded.org/*  https://dentistrydecoded.org/:splat  301

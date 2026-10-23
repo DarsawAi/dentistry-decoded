@@ -9,3 +9,7 @@ dist/
 *.mp4
 blog 2/
 
+
+*.pdf
+*_extracted.txt
+
